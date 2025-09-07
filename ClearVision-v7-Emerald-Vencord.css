@@ -33,7 +33,7 @@
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size (px) [default: cover] */
   --background-attachment: fixed; /* app background attachment [default: fixed] */
-  --background-filter: saturation(calc(var(--saturation-factor, 1) * 1)); /* app background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: saturate(calc(var(--saturation-factor, 1) * 1))] */
+  --background-filter: brightness(calc(var(--saturation-factor, 1) * 1.5)); /* app background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: saturate(calc(var(--saturation-factor, 1) * 1))] */
   
   /* USER POPOUT BACKGROUND */
   --user-popout-image: var(--background-image); /* user popout background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
@@ -42,12 +42,12 @@
   --user-popout-attachment: var(--background-attachment); /* user popout background attachment [default: var(--background-attachment)] */
   --user-popout-filter: var(--background-filter); /* user popout background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
   
-  /* USER MODAL BACKGROUND */
-  --user-modal-image: var(--background-image); /* user modal background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
-  --user-modal-position: var(--background-position); /* user modal position [default: var(--background-position)] */
-  --user-modal-size: var(--background-size); /* user modal size (px) [default: var(--background-size)] */
-  --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
-  --user-modal-filter: var(--background-filter); /* user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
+  /* USER MODAL BACKGROUND /
+  --user-modal-image: var(--background-image); / user modal background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] /
+  --user-modal-position: var(--background-position); / user modal position [default: var(--background-position)] /
+  --user-modal-size: var(--background-size); / user modal size (px) [default: var(--background-size)] /
+  --user-modal-attachment: var(--background-attachment); / user modal background attachment [default: var(--background-attachment)] /
+  --user-modal-filter: var(--background-filter); / user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
   
   /* HOME ICON */
   --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
@@ -116,6 +116,7 @@
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
+
 
 
 
